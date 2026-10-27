@@ -1,0 +1,14 @@
+name = "painel-landings"
+main = "src/index.js"
+compatibility_date = "2024-10-01"
+
+# Segredos (NÃO ficam aqui). Configure com:
+#   cd worker
+#   npx wrangler secret put SUPABASE_URL
+#   npx wrangler secret put SUPABASE_ANON_KEY
+#
+# Domínios próprios dos clientes entram como rotas de Custom Hostname
+# (Cloudflare for SaaS) apontando para este worker — ver Fase 4.
+#
+# Deploy:  npx wrangler deploy
+# Local:   npx wrangler dev   (teste via http://localhost:8787/s/<slug>)

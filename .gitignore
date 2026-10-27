@@ -1,0 +1,26 @@
+# dependências
+node_modules/
+**/node_modules/
+
+# builds
+dist/
+.vite/
+
+# segredos — NUNCA versionar
+.env
+.env.local
+.env.*.local
+worker/.dev.vars
+**/.dev.vars
+
+# cloudflare / wrangler
+.wrangler/
+**/.wrangler/
+
+# supabase local
+supabase/.temp/
+supabase/.branches/
+
+# diversos
+*.log
+.DS_Store
